@@ -1,0 +1,20 @@
+{
+  "topic": "Local LLMs on 8GB RAM",
+  "steps": [
+    {
+      "title": "Step 1: Quantization",
+      "code": "model = load_quantized('phi3', bits=4)",
+      "highlight": "bits=4"
+    },
+    {
+      "title": "Step 2: Memory Footprint",
+      "code": "ram_usage = '3.5 GB / 8 GB'",
+      "highlight": "3.5 GB"
+    },
+    {
+      "title": "Step 3: Execution",
+      "code": "output = model.generate('Hello local AI!')",
+      "highlight": "generate"
+    }
+  ]
+}
